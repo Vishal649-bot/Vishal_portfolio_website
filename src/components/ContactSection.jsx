@@ -1,5 +1,7 @@
-// components/ContactSection.js
+
 import React, { forwardRef } from 'react';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import { SiLeetcode } from 'react-icons/si';
 
 const ContactSection = forwardRef((props, ref) => {
   return (
@@ -34,14 +36,31 @@ const ContactSection = forwardRef((props, ref) => {
             </p>
             
             <div className="flex justify-center space-x-6">
+                           {/* LinkedIn */}
               <button className="group p-4 glass-effect rounded-full hover:bg-purple-600/30 transition-all duration-300 hover:scale-110">
-                <div className="text-2xl group-hover:animate-pulse"><a href="https://www.linkedin.com/in/vishal-babu-86b71420b/" target="_blank" rel="noopener noreferrer">💼</a></div>
+                <div className="text-2xl group-hover:animate-pulse text-white">
+                  <a href="https://www.linkedin.com/in/vishal-babu-86b71420b/" target="_blank" rel="noopener noreferrer">
+                    <FaLinkedin />
+                  </a>
+                </div>
               </button>
+
+              {/* GitHub */}
               <button className="group p-4 glass-effect rounded-full hover:bg-blue-600/30 transition-all duration-300 hover:scale-110">
-                <div className="text-2xl group-hover:animate-pulse"><a href="https://github.com/Vishal649-bot" target="_blank" rel="noopener noreferrer">🔗</a></div>
+                <div className="text-2xl group-hover:animate-pulse text-white">
+                  <a href="https://github.com/Vishal649-bot" target="_blank" rel="noopener noreferrer">
+                    <FaGithub />
+                  </a>
+                </div>
               </button>
+
+              {/* LeetCode */}
               <button className="group p-4 glass-effect rounded-full hover:bg-green-600/30 transition-all duration-300 hover:scale-110">
-                <div className="text-2xl group-hover:animate-pulse"><a href="https://leetcode.com/u/VishalKashyap101/" target="_blank" rel="noopener noreferrer">🧑‍💻</a></div>
+                <div className="text-2xl group-hover:animate-pulse text-white">
+                  <a href="https://leetcode.com/u/VishalKashyap101/" target="_blank" rel="noopener noreferrer">
+                    <SiLeetcode />
+                  </a>
+                </div>
               </button>
             </div>
           </div>

@@ -6,7 +6,7 @@ const SkillsSection = forwardRef(({ mousePos }, ref) => {
   const skillsData = [
     {
       title: "Frontend",
-      skills: ['JavaScript', 'React', 'HTML', 'CSS', 'Tailwind CSS'],
+      skills: ['HTML', 'CSS', 'JavaScript', 'React', 'Tailwind CSS'],
       icon: "🎨",
       delay: 0
     },
