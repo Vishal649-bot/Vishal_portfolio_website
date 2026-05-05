@@ -22,7 +22,7 @@ const ProjectsSection = forwardRef((props, ref) => {
       title: "B2B Marketplace",
       description: "Successfully built a B2B marketplace platform that connects suppliers and buyers, facilitating seamless transactions and communication.",
       tech: ['JavaScript', 'React', 'Node.js', 'MongoDB', ],
-      link:"https://b2b-frontend-zeta.vercel.app/requests",
+      link:"https://b2b-frontend-zeta.vercel.app/",
       index: 2
     }
   ];
