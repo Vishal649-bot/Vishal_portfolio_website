@@ -35,13 +35,13 @@ const ContactSection = forwardRef((props, ref) => {
             
             <div className="flex justify-center space-x-6">
               <button className="group p-4 glass-effect rounded-full hover:bg-purple-600/30 transition-all duration-300 hover:scale-110">
-                <div className="text-2xl group-hover:animate-pulse">💼</div>
+                <div className="text-2xl group-hover:animate-pulse"><a href="https://www.linkedin.com/in/vishal-babu-86b71420b/" target="_blank" rel="noopener noreferrer">💼</a></div>
               </button>
               <button className="group p-4 glass-effect rounded-full hover:bg-blue-600/30 transition-all duration-300 hover:scale-110">
-                <div className="text-2xl group-hover:animate-pulse">🔗</div>
+                <div className="text-2xl group-hover:animate-pulse"><a href="https://github.com/Vishal649-bot" target="_blank" rel="noopener noreferrer">🔗</a></div>
               </button>
               <button className="group p-4 glass-effect rounded-full hover:bg-green-600/30 transition-all duration-300 hover:scale-110">
-                <div className="text-2xl group-hover:animate-pulse">💬</div>
+                <div className="text-2xl group-hover:animate-pulse"><a href="https://leetcode.com/u/VishalKashyap101/" target="_blank" rel="noopener noreferrer">🧑‍💻</a></div>
               </button>
             </div>
           </div>

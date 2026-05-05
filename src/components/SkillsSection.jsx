@@ -6,19 +6,19 @@ const SkillsSection = forwardRef(({ mousePos }, ref) => {
   const skillsData = [
     {
       title: "Frontend",
-      skills: ['JavaScript'],
+      skills: ['JavaScript', 'React', 'HTML', 'CSS', 'Tailwind CSS'],
       icon: "🎨",
       delay: 0
     },
     {
       title: "Backend",
-      skills: ['ExpressJS', 'NodeJS'],
+      skills: ['ExpressJS', 'NodeJS',],
       icon: "⚙️",
       delay: 0.2
     },
     {
       title: "Programming",
-      skills: ['Python'],
+      skills: ['Python','JsavaScript'],
       icon: "💻",
       delay: 0.4
     },
