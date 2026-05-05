@@ -43,6 +43,9 @@ const AboutSection = forwardRef((props, ref) => {
             <div className="p-6 bg-gradient-to-br from-green-900/30 to-emerald-900/30 rounded-xl border border-green-500/30 card-hover">
               <div className="text-3xl font-bold text-green-400 mb-2">100+</div>
               <p className="text-gray-300">DSA Problems Solved on LeetCode</p>
+              <br />
+              <div className="text-3xl font-bold text-emerald-400 mb-2">500+</div>
+              <p className="text-gray-300">Downloads on NPM Package</p>
             </div>
           </div>
         </div>
